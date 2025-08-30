@@ -1,0 +1,26 @@
+# Composer dependencies
+/vendor/
+
+# Environment variables
+.env
+
+# Logs and debug files
+*.log
+*.sql
+*.sqlite
+
+# Cache
+/cache/
+tmp/
+!public/cache/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# PHPStorm project files
+*.iml
